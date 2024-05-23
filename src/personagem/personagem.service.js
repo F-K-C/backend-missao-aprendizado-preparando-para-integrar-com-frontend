@@ -38,7 +38,7 @@ function updateById(id, newItem) {
 *@returns
 */
 function deleteById(id) {
-    return getCollection().deleteOne( { _id: new ObjectId(id) } )
+    return getCollection().deleteOne({ _id: new ObjectId(id) })
 }
 
 module.exports = {
